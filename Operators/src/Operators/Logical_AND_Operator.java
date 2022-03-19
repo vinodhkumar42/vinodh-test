@@ -1,23 +1,18 @@
 package Operators;
 
 public class Logical_AND_Operator {
-	public static void main(String[] args)
-    {
-        // initializing variables
-        int a = 90, b = 20, c = 20, d = 0;
-  
-        // Displaying a, b, c
-        System.out.println("Venku = " + a);
-        System.out.println("Rohith = " + b);
-        System.out.println("Bhanu = " + c);
-  
-        
-        if ((a < b) && (b == c)) {                  //&& Operator                     
-        	d = a + b + c;
-            System.out.println("The sum is: " + d);
-        }
-        else
-            System.out.println("False conditions");
-    }
-}
+	
+		    public static void main(String args[])
+		    {
+		        // Initially loop is set to run from 0-9
+		        for (int i = 0; i < 10; i++) {
+		            // terminate loop when i is 5.
+		            if (i == 5)
+		                break;
+		  
+		            System.out.println("i: " + i);
+		        }
+		        System.out.println("Loop complete.");
+		    }
+		}
 
